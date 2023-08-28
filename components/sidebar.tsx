@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Montserrat } from 'next/font/google'
-import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
+import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon ,Book} from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
@@ -49,10 +49,16 @@ const routes = [
     href: '/code',
   },
   {
+    label:'AiResume',
+    icon: Book ,
+    color:"text-red-700",
+    href:'/aiResume',
+  },
+  {
     label: 'Settings',
     icon: Settings,
     href: '/settings',
-  },
+  }
 ];
 
 export const Sidebar = ({
@@ -72,7 +78,7 @@ export const Sidebar = ({
             <Image fill alt="Logo" src="/logo.png" />
           </div>
           <h1 className={cn("text-2xl font-bold", poppins.className)}>
-            Genius
+            diSed
           </h1>
         </Link>
         <div className="space-y-1">

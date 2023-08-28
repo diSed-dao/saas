@@ -1,4 +1,4 @@
-import { Code, ImageIcon, MessageSquare, Music, VideoIcon } from "lucide-react";
+import { Code, ImageIcon, MessageSquare, Music, VideoIcon,Book } from "lucide-react";
 
 export const MAX_FREE_COUNTS = 5;
 
@@ -37,5 +37,12 @@ export const tools = [
     color: "text-green-700",
     bgColor: "bg-green-700/10",
     href: '/code',
+  },
+  {
+    label: 'AI Generated Resume',
+    icon: Book,
+    color: "text-green-700",
+    bgColor: "bg-green-700/10",
+    href: '/book',
   },
 ];

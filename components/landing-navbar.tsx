@@ -16,12 +16,12 @@ export const LandingNavbar = () => {
   return (
     <nav className="p-4 bg-transparent flex items-center justify-between">
       <Link href="/" className="flex items-center">
-        <div className="relative h-8 w-8 mr-4">
-          <Image fill alt="Logo" src="/logo.png" />
+        <div className="relative h-10 w-20 mr-1 pl-10">
+          <Image fill alt="Logo" src="/disedl.png" />
         </div>
-        <h1 className={cn("text-2xl font-bold text-white", font.className)}>
-          Genius
-        </h1>
+        {/* <h1 className={cn("text-2xl font-bold text-white", font.className)}>
+          diSed
+        </h1> */}
       </Link>
       <div className="flex items-center gap-x-2">
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>

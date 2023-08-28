@@ -19,8 +19,9 @@ export const LandingHero = () => {
               strings: [
                 "Chatbot.",
                 "Photo Generation.",
-                "Blog Writing.",
-                "Mail Writing."
+                "Code Generation.",
+                "Video Generation.",
+                "Resume generation."
               ],
               autoStart: true,
               loop: true,
@@ -28,7 +29,7 @@ export const LandingHero = () => {
           />
         </div>
       </div>
-      <div className="text-sm md:text-xl font-light text-zinc-400">
+      <div className="text-sm md:text-xl font-light text-gray-400">
         Create content using AI 10x faster.
       </div>
       <div>
