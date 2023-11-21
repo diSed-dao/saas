@@ -1,5 +1,4 @@
-# diSed : A one-stop solution for all your AI needs. Our product helps you to generate anything using AI possible from a single place with a single subscription. |
-
+# diSed
 This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe |
 
 Features:
